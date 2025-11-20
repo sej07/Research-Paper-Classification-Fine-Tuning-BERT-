@@ -17,23 +17,23 @@ class BertClassifier(nn.Module):
         logits = self.classifier(pooled_output)
         return logits
     
-    def create_model(num_classes = 11):
-        print("Creating BERT classifier")
-        print(f"Model: {config.MODEL_NAME}")
-        print(f"Number of classes: {num_classes}")
-        model = BertClassifier(num_classes= num_classes)
-        model = model.to(config.DEVICE)
-        total_params = sum(p.numel() for p in model.parameters())
-        trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-        print(f"Total parameters: {total_params}")
-        print(f"Trainable parameters: {trainable_params}")
-        print(f"Model size: ~{total_params * 4 / 1024 ** 2:.1f} MB")
-        print("Model created")
-        return model
+def create_model(num_classes = 11):
+    print("Creating BERT classifier")
+    print(f"Model: {config.MODEL_NAME}")
+    print(f"Number of classes: {num_classes}")
+    model = BertClassifier(num_classes= num_classes)
+    model = model.to(config.DEVICE)
+    total_params = sum(p.numel() for p in model.parameters())
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"Total parameters: {total_params}")
+    print(f"Trainable parameters: {trainable_params}")
+    print(f"Model size: ~{total_params * 4 / 1024 ** 2:.1f} MB")
+    print("Model created")
+    return model
     
 if __name__ == "__main__":
     print("Testing")
-    model = BertClassifier.create_model(num_classes = config.NUM_CLASSES)
+    model = create_model(num_classes = config.NUM_CLASSES)
     batch_size = 4
     seq_length = 512
     dummy_input_ids = torch.randint(0, 30522, (batch_size, seq_length)).to(config.DEVICE)
@@ -49,3 +49,4 @@ if __name__ == "__main__":
         print("\nModel test PASSED!")
     else:
         print("\nModel test FAILED!")
+    

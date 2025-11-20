@@ -10,8 +10,8 @@ class Config:
     NUM_CLASSES = 11
     MAX_LENGTH = 512
 
-    BATCH_SIZE = 16
-    NUM_EPOCHS = 3
+    BATCH_SIZE = 8
+    NUM_EPOCHS = 1
     LEARNING_RATE = 2e-5
     WARMUP_STEPS = 500
     WEIGHT_DECAY = 0.01

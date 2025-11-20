@@ -27,10 +27,6 @@ models/final-model/*
 !models/checkpoint-best/.gitkeep
 !models/final-model/.gitkeep
 
-# Results
-results/*.png
-results/*.json
-results/*.txt
 
 # IDE
 .vscode/
