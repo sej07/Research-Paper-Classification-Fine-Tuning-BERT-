@@ -125,7 +125,7 @@ Output (Category Probabilities)
 
 ![Per-Category Accuracy](results/per_class_accuracy.png)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bert-document-classifier/
@@ -311,4 +311,5 @@ python src/evaluate.py
 - **Dataset:** [arXiv Classification Dataset](https://huggingface.co/datasets/ccdv/arxiv-classification) by ccdv
 - **BERT Model:** [Google's BERT](https://github.com/google-research/bert)
 - **Transformers Library:** [Hugging Face](https://huggingface.co/)
+
 
