@@ -21,8 +21,6 @@ A deep learning project that fine-tunes BERT to classify academic research paper
 
 This project implements a document classification system using BERT (Bidirectional Encoder Representations from Transformers) to automatically categorize academic research papers. The model classifies papers into 11 different categories spanning Computer Science and Mathematics disciplines.
 
-**Key Achievement:** 80.32% test accuracy after just 1 epoch of training!
-
 ## Features
 
 - Fine-tuned BERT-base model for multi-class classification (11 categories)
@@ -313,3 +311,4 @@ python src/evaluate.py
 - **Dataset:** [arXiv Classification Dataset](https://huggingface.co/datasets/ccdv/arxiv-classification) by ccdv
 - **BERT Model:** [Google's BERT](https://github.com/google-research/bert)
 - **Transformers Library:** [Hugging Face](https://huggingface.co/)
+
