@@ -1,0 +1,98 @@
+{
+    "test_accuracy": 0.8032,
+    "total_samples": 2500,
+    "per_class_metrics": {
+        "math.AC": {
+            "precision": 0.8737864077669902,
+            "recall": 0.8490566037735849,
+            "f1-score": 0.861244019138756,
+            "support": 212.0
+        },
+        "cs.CV": {
+            "precision": 0.7488372093023256,
+            "recall": 0.8298969072164949,
+            "f1-score": 0.7872860635696821,
+            "support": 194.0
+        },
+        "cs.AI": {
+            "precision": 0.6470588235294118,
+            "recall": 0.5365853658536586,
+            "f1-score": 0.5866666666666667,
+            "support": 205.0
+        },
+        "cs.SY": {
+            "precision": 0.8395061728395061,
+            "recall": 0.8755364806866953,
+            "f1-score": 0.8571428571428571,
+            "support": 233.0
+        },
+        "math.GR": {
+            "precision": 0.8776371308016878,
+            "recall": 0.8888888888888888,
+            "f1-score": 0.8832271762208068,
+            "support": 234.0
+        },
+        "cs.CE": {
+            "precision": 0.7670454545454546,
+            "recall": 0.6887755102040817,
+            "f1-score": 0.7258064516129032,
+            "support": 196.0
+        },
+        "cs.PL": {
+            "precision": 0.8663967611336032,
+            "recall": 0.8879668049792531,
+            "f1-score": 0.8770491803278688,
+            "support": 241.0
+        },
+        "cs.IT": {
+            "precision": 0.8166666666666667,
+            "recall": 0.8305084745762712,
+            "f1-score": 0.8235294117647058,
+            "support": 236.0
+        },
+        "cs.DS": {
+            "precision": 0.8490566037735849,
+            "recall": 0.8490566037735849,
+            "f1-score": 0.8490566037735849,
+            "support": 318.0
+        },
+        "cs.NE": {
+            "precision": 0.6754385964912281,
+            "recall": 0.7031963470319634,
+            "f1-score": 0.6890380313199105,
+            "support": 219.0
+        },
+        "math.ST": {
+            "precision": 0.8,
+            "recall": 0.8301886792452831,
+            "f1-score": 0.8148148148148148,
+            "support": 212.0
+        },
+        "accuracy": 0.8032,
+        "macro avg": {
+            "precision": 0.7964936206227691,
+            "recall": 0.7972415151117964,
+            "f1-score": 0.7958964796684143,
+            "support": 2500.0
+        },
+        "weighted avg": {
+            "precision": 0.8014132548972009,
+            "recall": 0.8032,
+            "f1-score": 0.8014373071031892,
+            "support": 2500.0
+        }
+    },
+    "category_names": [
+        "math.AC",
+        "cs.CV",
+        "cs.AI",
+        "cs.SY",
+        "math.GR",
+        "cs.CE",
+        "cs.PL",
+        "cs.IT",
+        "cs.DS",
+        "cs.NE",
+        "math.ST"
+    ]
+}
